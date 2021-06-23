@@ -18,6 +18,7 @@ This server consists of two EPs `/fizzbuzz/{n}` and `/fizzbuzzList`.
 The first returns the entity fizzbuzzz of number n and the second returns the first 10 entities fizzbuzz.
 
 ## Project struct
+```
 📦FizzBuzz-FastAPI
  ┣ 📂app
  ┃ ┣ 📜fizzbuzz.py
@@ -27,6 +28,7 @@ The first returns the entity fizzbuzzz of number n and the second returns the fi
  ┣ 📜Dockerfile
  ┣ 📜README.md
  ┗ 📜requirements.txt
+```
 
 ## Deploy and Testing
 - First you need to install the dependencies with the command `pip3 install -r requirementes.txt`
