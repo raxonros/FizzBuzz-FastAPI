@@ -1,5 +1,6 @@
 from fastapi import FastAPI
 from typing import Optional
+import uvicorn
 import fizzbuzz as fb
 import plazeholder as pz
 
@@ -36,3 +37,5 @@ async def fizzbuzz(number: int):
                 }
     return data
 
+if __name__ == '__main__':
+    uvicorn.run(app)
